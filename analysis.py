@@ -66,8 +66,4 @@ def equation(xInts, yInts):
     yInt = yIntercept
 
 equation(x, y)
-print(mean(days), mean(counts))
-
-import seaborn
-seaborn.residplot(x, y, lowess=True, color="g")
 
